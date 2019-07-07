@@ -37,7 +37,7 @@ pipeline {
         stage('terraform plan') {
             steps {
                 sh "cat 00-aws-tf-my4.tf"
-                sh "=============================================================================="
+                sh "echo =============================================================================="
                 // move it to separate stage with when statement
                 // sh "terraform init"
                 sh "terraform plan"
