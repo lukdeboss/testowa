@@ -5,8 +5,7 @@ variable "region" {
 }
 
 
-variable "azs" {
-   type = "list"
-   default = ["${var.region}a", "${var.region}b", "${var.region}c" ]
+locals {
+   azs = ["${var.region}a", "${var.region}b", "${var.region}c" ]
 }
 
