@@ -1,3 +1,11 @@
+# edytuj to przez v
+
+
+variable "region" {
+   default = "eu-west-2"
+}
+
+
 
 # Create a VPC
 resource "aws_vpc" "vpc1" {

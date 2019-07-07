@@ -1,4 +1,18 @@
 
-jak zrobic aby ta sama pipeline dzialala na apply i na destroy?
 
-1. pierw
+to jest testowa PP czyli 
+
+- sprawdza co ma dodac
+- czeka na aprobate
+- dodaje 
+- tu mozna TESTOWAC ZBUDOWANY SYSTEM
+- sprawdza co ma kasowac
+- czeka na aprobate
+- kasuje wszystko
+- na koncu tylko sprawdz czy zakonczyla sie OK, czyli czy skasowala wszystko
+
+czyli taka wanka wstanka, utworz przetestuj i zamknij
+
+
+
+
