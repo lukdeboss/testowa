@@ -17,7 +17,7 @@ locals {
 
 
 
-output "azs2" {
-  value = locals.azs2
+output "azsa" {
+  value = "${locals.azs2}
 }
 
