@@ -53,22 +53,21 @@ pipeline {
             }
         }
 
-        stage('Deploy destroy approval') {
-            steps {
-               input "czy na pewno skasowac?"
-            }
-        }
+
+
         stage('terraform plan destroy') {
             steps {
                 sh "terraform plan --destroy"
             }
         }
 
-        stage('Deploy approval') {
+
+        stage('Deploy destroy approval') {
             steps {
-               input "sprawdz i zatwierdz plan kasowania?"
+               input "czy na pewno skasowac?"
             }
         }
+
         stage('terraform destroy') {
             steps {
                 sh "terraform destroy --auto-approve"
