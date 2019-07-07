@@ -28,6 +28,12 @@ pipeline {
             }
         }
 
+        stage('terraform init') {
+            steps {
+                // move it to separate stage with when statement
+                sh "terraform init"
+            }
+        }
         stage('terraform plan') {
             steps {
                 // move it to separate stage with when statement
