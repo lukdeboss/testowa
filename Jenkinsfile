@@ -53,7 +53,7 @@ pipeline {
             }
         }
 
-        stage('Deploy approval') {
+        stage('Deploy destroy approval') {
             steps {
                input "czy na pewno skasowac?"
             }
