@@ -15,3 +15,9 @@ locals {
    azs2 = data.aws_availability_zones.azs.names
 }
 
+
+
+output "azs2" {
+  value = locals.azs2
+}
+
