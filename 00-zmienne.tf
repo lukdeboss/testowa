@@ -18,6 +18,6 @@ locals {
 
 
 output "azsa" {
-  value = "${azs2}"
+  value = "${azs2[0]}"
 }
 
