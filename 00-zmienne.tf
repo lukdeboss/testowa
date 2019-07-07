@@ -18,6 +18,6 @@ locals {
 
 
 output "azsa" {
-  value = "${locals.azs2}
+  value = "${azs2}
 }
 
